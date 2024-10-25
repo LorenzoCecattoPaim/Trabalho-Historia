@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#D9D0A7;
+    --cor2:#485B73;
+    --cor3:#3D4F73;
+    --cor4:#D9C5AD;
+    --cor5:#8C7E72;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: var(--cor1);
+    padding: 10px;
+    padding-bottom: 25px;
+    height: 25dvh;
+    width: 100dvw;
+}
+h2#quemsou{
+    text-align: center;
+    font-family: cursive;
+}
+header h1{
+    text-align: center;
+    padding-top: 3px;
+    padding: 10px;
+    margin-top: 1px;
+    margin: 15px;
+    color: var(--cor5)
+}
+header a{
+    margin-top: 10px;
+    padding: 10px;
+    margin: 0px;
+    text-decoration: none;
+    color: var(--cor3);
+    border: 2px solid;
+}
+ header a:hover{
+    color: var(--cor5);
+    font-size: 18px;
+    box-shadow: 1px var(--cor4);
+}
+body{
+    background-color: var(--cor3);
+    width: 100dvw;
+    height: 100vh;
+}
+
+main p{
+    max-width: 600px;
+    text-align: justify;
+    padding: 8px;
+}
+#loja{
+    width: 250px;
+    height: 240px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(280px,-120px);
+}
+div{
+    display: inline-block;
+    text-align: end;
+}
+footer{
+    background-color: var(--cor1);
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer a{
+    color: var(--cor5);
+    text-decoration: none;
+}
+section img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display:inline-block;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.482);
+
+}
+
+main a{
+    box-shadow: 10px rgb(0, 0, 0);
+    display: inline-block,;
+    margin: auto;
+}
+section a{
+    padding: 40px;
+}
+section img:hover{
+    border: 2px solid white;
+    transform: translate(-2px, -2px);
+    height: 45px;
+    width: 45px;
+    transition: transform .7s, border 1s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.636);
+}
+h2{
+    padding: 10px;    
+}
+h3{
+    padding: 10px;
+}
+section p{
+    margin: 5px;
+    margin-bottom: 20px;
+}
+fieldset{
+    background-color:var(--cor2);
+}
+form p {
+    padding: 7px;
+}
+form{
+    text-align: center;
+}
+legend{
+    color: white;
+}
+fieldset{
+    border: 2px dashed var(--cor3);
+}
+label{
+    color: var(--cor5);
+}
+#botão{
+    text-align: center;
+    display: inline-block;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+p{
+    text-indent: 5px;
+}
