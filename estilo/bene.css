@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 :root{
-    --cor1:#D9D0A7;
-    --cor2:#485B73;
-    --cor3:#3D4F73;
-    --cor4:#D9C5AD;
-    --cor5:#8C7E72;
+    --cor1:#797461;
+    --cor2:#978165;
+    --cor3:#8a4e06;
+    --cor4:#804506;
+    --cor5:#402203;
 }
 
 *{
@@ -60,4 +60,15 @@ li{
 }
 h3{
     margin: 10px;
+}
+footer{
+    background-color: var(--cor1);
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer a{
+    color: var(--cor5);
+    text-decoration: none;
 }
